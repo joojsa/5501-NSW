@@ -11,6 +11,7 @@ knitr::opts_chunk$set(collapse = TRUE)
 ```
 
 # NSW COVID-19 Cases By Age Group
+
 ```{r import, include=FALSE}
 library(dplyr)
 library(tidyverse)
@@ -30,6 +31,13 @@ age <- read.csv("confirmed_cases_table2_age_group.csv")
 ```
 
 The bar chart below shows the NSW COVID-19 cases by age group.
+
+This bar chart claims that the most COVID-19 patients are concentrated in adolescents aged 0-19 in NSW. 
+
+It may emphasise that teenagers prefer to play or study together. They may not willing to follow their parent's teachings, and they don’t like staying at home. 
+
+As a result, they may become the main contagious. However, they have had better resistance due to a healthy body.
+
 ```{r age group, echo=FALSE}
 age%>%
   group_by(age_group)%>%
@@ -41,4 +49,4 @@ age%>%
   theme(plot.title = element_text(hjust = 0.5, face = 'bold'))
 ```
 
-
+Tips! If you are a resident of NSW, please monitor your children at some special time, they may cause serious consequences.

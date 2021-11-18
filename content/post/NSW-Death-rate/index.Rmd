@@ -30,7 +30,11 @@ age_gender <- read.csv("Case_fatality_rates_by_age_and_sex.csv")
 
 ```
 
-The column  below shows the NSW COVID-19 Deaths by Age Group and Sex.
+The column below shows the NSW COVID-19 Deaths by Age Group and Sex.
+
+This column graph, states that the male mortality rate is higher than females caused by COVID-19.
+In addition, most patients come from the elderly group over 60 years old. It also means that if these old people were infected with COVID-19, they would suffer many other diseases at the same time.
+
 ```{r NSW-vac, echo=FALSE}
 
 #plotly
@@ -41,6 +45,8 @@ plot_ly(data= age_gender,x = ~Age_group, y = ~Males, type = 'bar', name = 'Male'
          title = '<b> COVID-19 fatality rates by age and sex <b>', showlegend = F, position = "topcenter")
 ```
 
+Tips!
+If you are the hospital employee, please pay more attention to these elderly.
 
 
 

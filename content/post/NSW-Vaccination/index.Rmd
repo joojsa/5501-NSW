@@ -32,6 +32,8 @@ vac <- read.csv("NSW-vaccinated.csv")
 ```
 
 The table below shows the NSW vaccination numbers and statistics.
+
+Tips! If you are a resident of NSW, you can use the empty box below to check the vaccination rate.
 ```{r NSW-vac, echo=FALSE}
 vac %>%
   datatable(rownames = FALSE,

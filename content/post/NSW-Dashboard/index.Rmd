@@ -1,0 +1,24 @@
+---
+title: "NSW COVID-19 Dashboard"
+author: "Jiaxin Lu"
+date: '2021-11-17T21:13:14-05:00'
+categories: R
+tags:
+- NSW
+- COVID-19
+- Dashboard
+---
+This dashboard indicates the impact of NSW due to the COVID-19.
+
+1. For NSW, it shows that there are 73,638 confirmed cases in 2021. And there are 4,698 confirmed cases in 2020. This implement that the confirmed cases in 2021 are about 15 times that of 2020.
+
+2. Most patients occurred in August, September and October of 2021.
+
+3. Vaccination rates in most areas of NSW can reach more than 90%. Only Sydney Inner City and Marrickville-Sydenham-Petersham are below 80%. It means the government should increase vaccine promotion in these two areas.
+
+<iframe src="https://public.tableau.com/views/NSW-ADDITION/1_1?:showVizHome=no&:embed=true"
+ width="900" height="800"></iframe>
+
+Tips!
+You could find out the number of NSW Covid-19 patients from 2020 to the recent day. 
+In addition, if you come from NSW, you could find the vaccination rate in your surrounding area.
