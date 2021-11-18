@@ -1,0 +1,44 @@
+---
+title: "NSW COVID-19 Cases by Age Group"
+author: "Jiaxin Lu"
+date: 2021-11-11T21:13:14-05:00
+categories: ["R"]
+tags: ["NSW", "COVID-19", "Age"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# NSW COVID-19 Cases By Age Group
+```{r import, include=FALSE}
+library(dplyr)
+library(tidyverse)
+library(plotly)
+library(ggplot2)
+library(scales)
+library(RColorBrewer)
+library(gridExtra)
+library(ggthemes)
+library(highcharter)
+library(DT)
+library(leaflet)
+
+setwd("C:/Users/32631/Documents/Rstudio/R_A3")
+age <- read.csv("confirmed_cases_table2_age_group.csv")
+
+```
+
+The bar chart below shows the NSW COVID-19 cases by age group.
+```{r age group, echo=FALSE}
+age%>%
+  group_by(age_group)%>%
+  summarise(COVID_19_Cases = (count=n()))%>%
+  ggplot()+
+  geom_col(mapping = aes(y = age_group, x = COVID_19_Cases), fill = hue_pal()(4)[1], width = 0.6)+
+  ggtitle("COVID-19 Cases by Age Group") +
+  scale_fill_brewer(palette = "Blues")+
+  theme(plot.title = element_text(hjust = 0.5, face = 'bold'))
+```
+
+

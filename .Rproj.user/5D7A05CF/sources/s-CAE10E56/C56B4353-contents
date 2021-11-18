@@ -1,0 +1,32 @@
+setwd("C:/Users/32631/Documents/Rstudio/R_A3")
+
+age_sex <- read.csv("age-gender.csv")
+
+install.packages("ggthemes")
+library(ggplot2)
+library(ggthemes)
+library(plotly)
+
+view(age_sex)
+
+#ggplot_bar
+ggplot( data = age_sex, mapping = aes(x = age_group, y = Death_Rate, fill = Gender))+
+geom_bar(stat = 'identity', position = 'dodge')+
+theme_wsj()+
+scale_fill_wsj("rgby", "")+     
+guides(fill=guide_legend(title=NULL))+
+ggtitle("COVID-19 death rate by gender")+ 
+theme(axis.title = element_blank())
+
+
+#plot_ly
+age_sex %>%
+  group_by(age_group) %>%
+  summarise(Dead = sum(Death_Rate))%>%
+  plot_ly %>%
+  add_trace(x = ~reorder(age_group, - Dead),
+            y = ~ Dead,
+            type = "bar")%>%
+  layout(title, '<b> S <b>',
+         xaxis = list (title = 'Age Group'), 
+         yaxis = list (title = 'Death Rate'))

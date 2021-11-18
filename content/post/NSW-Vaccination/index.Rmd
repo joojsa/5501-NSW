@@ -1,0 +1,43 @@
+---
+title: "NSW Vaccination Numbers and Statistics"
+author: "Jiaxin Lu"
+date: 2021-11-10T21:13:14-05:00
+categories: ["R"]
+tags: ["NSW", "COVID-19", "NSW Vaccination numbers and statistics"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# NSW Vaccination numbers and statistics
+```{r Plotdata, include=FALSE}
+library(dplyr)
+library(tidyverse)
+library(plotly)
+library(ggplot2)
+library(scales)
+library(RColorBrewer)
+library(gridExtra)
+library(ggthemes)
+library(highcharter)
+library(DT)
+library(leaflet)
+
+setwd("C:/Users/32631/Documents/Rstudio/R_A3")
+
+vac <- read.csv("NSW-vaccinated.csv")
+
+
+```
+
+The table below shows the NSW vaccination numbers and statistics.
+```{r NSW-vac, echo=FALSE}
+vac %>%
+  datatable(rownames = FALSE,
+            filter = list(position = 'top'))
+```
+
+
+
+

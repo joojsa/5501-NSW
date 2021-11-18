@@ -1,0 +1,46 @@
+---
+title: "NSW COVID-19 Deaths by Age Group and Sex"
+author: "Jiaxin Lu"
+date: 2021-11-16T21:13:14-05:00
+categories: ["R"]
+tags: ["NSW", "COVID-19", "Death"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# NSW Deaths numbers and statistics
+```{r Plotdata, include=FALSE}
+library(dplyr)
+library(tidyverse)
+library(plotly)
+library(ggplot2)
+library(scales)
+library(RColorBrewer)
+library(gridExtra)
+library(ggthemes)
+library(highcharter)
+library(DT)
+library(leaflet)
+
+setwd("C:/Users/32631/Documents/Rstudio/R_A3")
+
+age_gender <- read.csv("Case_fatality_rates_by_age_and_sex.csv")
+
+```
+
+The column  below shows the NSW COVID-19 Deaths by Age Group and Sex.
+```{r NSW-vac, echo=FALSE}
+
+#plotly
+plot_ly(data= age_gender,x = ~Age_group, y = ~Males, type = 'bar', name = 'Male')%>%
+  add_bars(x= ~Age_group, y = ~Females, type = 'bar', name = 'Female')%>%
+  layout(xaxis = list( title = 'Age Group(years)'),
+         yaxis = list( title = 'Death Rate(%)'),
+         title = '<b> COVID-19 fatality rates by age and sex <b>', showlegend = F, position = "topcenter")
+```
+
+
+
+

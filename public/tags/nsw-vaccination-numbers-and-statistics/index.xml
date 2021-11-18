@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NSW Vaccination numbers and statistics on A Hugo website</title>
+    <link>/tags/nsw-vaccination-numbers-and-statistics/</link>
+    <description>Recent content in NSW Vaccination numbers and statistics on A Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Nov 2021 21:13:14 -0500</lastBuildDate><atom:link href="/tags/nsw-vaccination-numbers-and-statistics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NSW Vaccination Numbers and Statistics</title>
+      <link>/2021/11/10/nsw-vaccination-numbers-and-statistics/</link>
+      <pubDate>Wed, 10 Nov 2021 21:13:14 -0500</pubDate>
+      
+      <guid>/2021/11/10/nsw-vaccination-numbers-and-statistics/</guid>
+      <description>NSW Vaccination numbers and statisticsThe table below shows the NSW vaccination numbers and statistics.
+{&#34;x&#34;:{&#34;filter&#34;:&#34;top&#34;,&#34;vertical&#34;:false,&#34;filterHTML&#34;:&#34;\n \n \n \n \n \n \n \n \n \n \n \n \n&#34;,&#34;data&#34;:[[&#34;NSW - Administration state - Total vaccine doses administered&#34;,&#34;NSW - Administration state - Daily increase doses recorded&#34;,&#34;NSW - Administration state - Total doses administered state and territory facilities&#34;,&#34;NSW - Administration state - Daily increase doses administered state and territory facilities&#34;</description>
+    </item>
+    
+    <item>
+      <title>NSW Vaccination Numbers and Statistics</title>
+      <link>/vaccination_data/</link>
+      <pubDate>Wed, 10 Nov 2021 21:13:14 -0500</pubDate>
+      
+      <guid>/vaccination_data/</guid>
+      <description>NSW Vaccination numbers and statisticsThe table below shows the NSW vaccination numbers and statistics.
+{&#34;x&#34;:{&#34;filter&#34;:&#34;top&#34;,&#34;vertical&#34;:false,&#34;filterHTML&#34;:&#34;\n \n \n \n \n \n \n \n \n \n \n \n \n&#34;,&#34;data&#34;:[[&#34;NSW - Administration state - Total vaccine doses administered&#34;,&#34;NSW - Administration state - Daily increase doses recorded&#34;,&#34;NSW - Administration state - Total doses administered state and territory facilities&#34;,&#34;NSW - Administration state - Daily increase doses administered state and territory facilities&#34;</description>
+    </item>
+    
+  </channel>
+</rss>

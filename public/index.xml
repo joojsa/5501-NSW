@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A Hugo website</title>
+    <link>/</link>
+    <description>Recent content on A Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Nov 2021 21:13:14 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NSW COVID-19 Deaths by Age Group and Sex</title>
+      <link>/2021/11/16/nsw-covid-19-deaths-by-age-group-and-sex/</link>
+      <pubDate>Tue, 16 Nov 2021 21:13:14 -0500</pubDate>
+      
+      <guid>/2021/11/16/nsw-covid-19-deaths-by-age-group-and-sex/</guid>
+      <description>NSW Deaths numbers and statisticsThe column below shows the NSW COVID-19 Deaths by Age Group and Sex.
+## Warning: Ignoring 4 observations## Warning: Ignoring 4 observations## Warning: &amp;#39;layout&amp;#39; objects don&amp;#39;t have these attributes: &amp;#39;position&amp;#39;## Valid attributes include:## &amp;#39;_deprecated&amp;#39;, &amp;#39;activeshape&amp;#39;, &amp;#39;annotations&amp;#39;, &amp;#39;autosize&amp;#39;, &amp;#39;autotypenumbers&amp;#39;, &amp;#39;calendar&amp;#39;, &amp;#39;clickmode&amp;#39;, &amp;#39;coloraxis&amp;#39;, &amp;#39;colorscale&amp;#39;, &amp;#39;colorway&amp;#39;, &amp;#39;computed&amp;#39;, &amp;#39;datarevision&amp;#39;, &amp;#39;dragmode&amp;#39;, &amp;#39;editrevision&amp;#39;, &amp;#39;editType&amp;#39;, &amp;#39;font&amp;#39;, &amp;#39;geo&amp;#39;, &amp;#39;grid&amp;#39;, &amp;#39;height&amp;#39;, &amp;#39;hidesources&amp;#39;, &amp;#39;hoverdistance&amp;#39;, &amp;#39;hoverlabel&amp;#39;, &amp;#39;hovermode&amp;#39;, &amp;#39;images&amp;#39;, &amp;#39;legend&amp;#39;, &amp;#39;mapbox&amp;#39;, &amp;#39;margin&amp;#39;, &amp;#39;meta&amp;#39;, &amp;#39;metasrc&amp;#39;, &amp;#39;modebar&amp;#39;, &amp;#39;newshape&amp;#39;, &amp;#39;paper_bgcolor&amp;#39;, &amp;#39;plot_bgcolor&amp;#39;, &amp;#39;polar&amp;#39;, &amp;#39;scene&amp;#39;, &amp;#39;selectdirection&amp;#39;, &amp;#39;selectionrevision&amp;#39;, &amp;#39;separators&amp;#39;, &amp;#39;shapes&amp;#39;, &amp;#39;showlegend&amp;#39;, &amp;#39;sliders&amp;#39;, &amp;#39;spikedistance&amp;#39;, &amp;#39;template&amp;#39;, &amp;#39;ternary&amp;#39;, &amp;#39;title&amp;#39;, &amp;#39;transition&amp;#39;, &amp;#39;uirevision&amp;#39;, &amp;#39;uniformtext&amp;#39;, &amp;#39;updatemenus&amp;#39;, &amp;#39;width&amp;#39;, &amp;#39;xaxis&amp;#39;, &amp;#39;yaxis&amp;#39;, &amp;#39;barmode&amp;#39;, &amp;#39;bargap&amp;#39;, &amp;#39;mapType&amp;#39;{&#34;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 15 Nov 2021 21:48:51 -0700</pubDate>
+      
+      <guid>/about/</guid>
+      <description>In the past year, COVID-19 has caused devastating influences and challenges over the world. The death rate of COVID-19 has been significantly reduced until 2021 due to the development of vaccines.
+This blog is main discussed about the fatality caused by COVID-19 the vaccines rate in NSW. It may help the students, hospital staff, and even vaccinate companies to more insights about COVID-19.</description>
+    </item>
+    
+    <item>
+      <title>NSW COVID-19 Cases by Age Group</title>
+      <link>/2021/11/11/nsw-covid-19-cases-by-age-group/</link>
+      <pubDate>Thu, 11 Nov 2021 21:13:14 -0500</pubDate>
+      
+      <guid>/2021/11/11/nsw-covid-19-cases-by-age-group/</guid>
+      <description>NSW COVID-19 Cases By Age GroupThe bar chart below shows the NSW COVID-19 cases by age group.</description>
+    </item>
+    
+    <item>
+      <title>NSW Vaccination Numbers and Statistics</title>
+      <link>/2021/11/10/nsw-vaccination-numbers-and-statistics/</link>
+      <pubDate>Wed, 10 Nov 2021 21:13:14 -0500</pubDate>
+      
+      <guid>/2021/11/10/nsw-vaccination-numbers-and-statistics/</guid>
+      <description>NSW Vaccination numbers and statisticsThe table below shows the NSW vaccination numbers and statistics.
+{&#34;x&#34;:{&#34;filter&#34;:&#34;top&#34;,&#34;vertical&#34;:false,&#34;filterHTML&#34;:&#34;\n \n \n \n \n \n \n \n \n \n \n \n \n&#34;,&#34;data&#34;:[[&#34;NSW - Administration state - Total vaccine doses administered&#34;,&#34;NSW - Administration state - Daily increase doses recorded&#34;,&#34;NSW - Administration state - Total doses administered state and territory facilities&#34;,&#34;NSW - Administration state - Daily increase doses administered state and territory facilities&#34;</description>
+    </item>
+    
+    <item>
+      <title>NSW Vaccination Numbers and Statistics</title>
+      <link>/vaccination_data/</link>
+      <pubDate>Wed, 10 Nov 2021 21:13:14 -0500</pubDate>
+      
+      <guid>/vaccination_data/</guid>
+      <description>NSW Vaccination numbers and statisticsThe table below shows the NSW vaccination numbers and statistics.
+{&#34;x&#34;:{&#34;filter&#34;:&#34;top&#34;,&#34;vertical&#34;:false,&#34;filterHTML&#34;:&#34;\n \n \n \n \n \n \n \n \n \n \n \n \n&#34;,&#34;data&#34;:[[&#34;NSW - Administration state - Total vaccine doses administered&#34;,&#34;NSW - Administration state - Daily increase doses recorded&#34;,&#34;NSW - Administration state - Total doses administered state and territory facilities&#34;,&#34;NSW - Administration state - Daily increase doses administered state and territory facilities&#34;</description>
+    </item>
+    
+  </channel>
+</rss>
